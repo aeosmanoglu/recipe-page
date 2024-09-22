@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .text-preset-1 {
+        @apply text-4xl font-serif;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    .text-preset-2 {
+        @apply font-serif;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    .text-preset-3 {
+        @apply text-xl font-sans font-semibold;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    .text-preset-4 {
+        @apply font-sans;
+        line-height: 150%;
+        letter-spacing: 0;
+    }
+}
