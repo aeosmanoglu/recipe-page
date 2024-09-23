@@ -8,108 +8,144 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body class="text-preset-4 text-stone-600 font-light">
-    <img src="./assets/images/image-omelette.jpeg" alt="Omelette" class="h-[171px] w-full object-cover">
+<body class="text-preset-4 text-stone-600 font-light bg-stone-100 md:flex md:justify-center md:px-12 md:py-32">
+<img src="./assets/images/image-omelette.jpeg" alt="Omelette" class="h-[171px] w-full object-cover md:hidden">
 
-    <main class="flex flex-col gap-8 px-8 py-10">
-        <header class="flex flex-col gap-6">
-            <h1 class="text-preset-1 text-stone-900">Simple Omelette Recipe</h1>
-            <p class="text-preset-4">
-                An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-                to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-            </p>
-        </header>
+<main class="flex flex-col gap-8 px-8 py-10 bg-white max-w-[736px] md:rounded-3xl">
+    <img src="./assets/images/image-omelette.jpeg" alt="Omelette"
+         class="hidden h-[300px] w-full object-cover rounded-xl md:block">
+    <!-- header -->
+    <header class="flex flex-col gap-6">
+        <h1 class="text-stone-900 text-preset-1 md:text-[40px]">Simple Omelette Recipe</h1>
+        <p class="text-preset-4">
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+    </header>
 
-        <!-- preparation -->
-        <div class="flex flex-col p-6 gap-4 bg-rose-50 rounded-xl">
-            <h3 class="text-preset-3 text-rose-800">Preparation time</h3>
-            <div class="flex flex-col gap-2">
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
-                    <p class="text-preset-4"><span class="font-bold">Total</span>: Approximately 10 minutes</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
-                    <p class="text-preset-4"><span class="font-bold">Preparation</span>: 5 minutes</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
-                    <p class="text-preset-4"><span class="font-bold">Cooking</span>: 5 minutes</p>
-                </div>
+    <!-- preparation -->
+    <div class="flex flex-col p-6 gap-4 bg-rose-50 rounded-xl">
+        <h3 class="text-preset-3 text-rose-800">Preparation time</h3>
+        <div class="flex flex-col gap-2">
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
+                <p class="text-preset-4"><span class="font-bold">Total</span>: Approximately 10 minutes</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
+                <p class="text-preset-4"><span class="font-bold">Preparation</span>: 5 minutes</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-rose-800 rounded-full"></div>
+                <p class="text-preset-4"><span class="font-bold">Cooking</span>: 5 minutes</p>
             </div>
         </div>
+    </div>
 
-        <!-- ingredients -->
-        <div class="flex flex-col gap-6">
-            <h2 class="text-preset-2 text-brown-800">Ingredients</h2>
-            <div class="flex flex-col gap-2">
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
-                    <p class="text-preset-4">2-3 large eggs</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
-                    <p class="text-preset-4">Salt, to taste</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
-                    <p class="text-preset-4">Pepper, to taste</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
-                    <p class="text-preset-4">1 tablespoon of butter or oil</p>
-                </div>
-                <div class="flex ps-2 gap-7 items-center">
-                    <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
-                    <p class="text-preset-4">Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
-                </div>
+    <!-- ingredients -->
+    <div class="flex flex-col gap-6">
+        <h2 class="text-preset-2 text-brown-800">Ingredients</h2>
+        <div class="flex flex-col gap-2">
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
+                <p class="text-preset-4">2-3 large eggs</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
+                <p class="text-preset-4">Salt, to taste</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
+                <p class="text-preset-4">Pepper, to taste</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
+                <p class="text-preset-4">1 tablespoon of butter or oil</p>
+            </div>
+            <div class="flex ps-2 gap-7 items-center">
+                <div class="w-1 h-1 bg-brown-800 rounded-full"></div>
+                <p class="text-preset-4">Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
             </div>
         </div>
+    </div>
 
-        <hr class="border-t border-stone-150">
+    <hr class="border-t border-stone-150">
 
-        <!-- instructions -->
-        <div class="flex flex-col gap-6">
-            <h2 class="text-preset-2 text-brown-800">Instructions</h2>
+    <!-- instructions -->
+    <div class="flex flex-col gap-6">
+        <h2 class="text-preset-2 text-brown-800">Instructions</h2>
+        <div class="flex flex-col gap-2">
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">1.</div>
+                <p><span class="font-bold">Beat the eggs:</span>
+                    In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+                    You can add a tablespoon of water or milk for a fluffier texture.
+                </p>
+            </div>
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">2.</div>
+                <p><span class="font-bold">Heat the pan:</span>
+                    Place a non-stick frying pan over medium heat and add butter or oil.
+                </p>
+            </div>
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">3.</div>
+                <p><span class="font-bold">Cook the omelette:</span>
+                    Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+                    the eggs evenly coat the surface.
+                </p>
+            </div>
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">4.</div>
+                <p><span class="font-bold">Add fillings (optional):</span>
+                    When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your
+                    chosen fillings over one half of the omelette.
+                </p>
+            </div>
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">5.</div>
+                <p><span class="font-bold">Fold and serve:</span>
+                    As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it
+                    cook for another minute, then slide it onto a plate.
+                </p>
+            </div>
+            <div class="flex gap-4 ps-2">
+                <div class="font-bold text-brown-800 w-4">6.</div>
+                <p><span class="font-bold">Enjoy:</span>
+                    Serve hot, with additional salt and pepper if needed.
+                </p>
+            </div>
         </div>
+    </div>
 
-    </main>
+    <hr class="border-t border-stone-150">
+
+    <!-- nutrition -->
+    <div class="flex flex-col gap-6">
+        <h2 class="text-preset-2 text-brown-800">Nutrition</h2>
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+        <div class="flex flex-col gap-3">
+            <div class="flex gap-4 px-8">
+                <p class="w-full">Calories</p>
+                <p class="font-bold text-brown-800 w-full">277kcal</p>
+            </div>
+            <hr class="border-t border-stone-150">
+            <div class="flex gap-4 px-8">
+                <p class="w-full">Carbs</p>
+                <p class="font-bold text-brown-800 w-full">0g</p>
+            </div>
+            <hr class="border-t border-stone-150">
+            <div class="flex gap-4 px-8">
+                <p class="w-full">Protein</p>
+                <p class="font-bold text-brown-800 w-full">20g</p>
+            </div>
+            <hr class="border-t border-stone-150">
+            <div class="flex gap-4 px-8">
+                <p class="w-full">Fat</p>
+                <p class="font-bold text-brown-800 w-full">22g</p>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
-
-
-Instructions
-
-Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-You can add a tablespoon of water or milk for a fluffier texture.
-
-Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
-
-Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
-the eggs evenly coat the surface.
-
-Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the
-middle, sprinkle your chosen fillings over one half of the omelette.
-
-Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
-fillings. Let it cook for another minute, then slide it onto a plate.
-
-Enjoy: Serve hot, with additional salt and pepper if needed.
-
-Nutrition
-
-The table below shows nutritional values per serving without the additional fillings.
-
-Calories
-277kcal
-
-Carbs
-0g
-
-Protein
-20g
-
-Fat
-22g
-
-
 </html>
